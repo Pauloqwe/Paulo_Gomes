@@ -1,0 +1,61 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ff6600;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+section#noticias {
+  background-color: #333333;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+section#noticias h1 {
+  color: #ff6600;
+}
+
+section#noticias article {
+  margin-bottom: 20px;
+}
+
+section#sobre, section#contato {
+  background-color: #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#noticias article h2 {
+  color: #ff6600;
+}
+
+footer {
+  background-color: #ff6600;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Adicionando efeito parallax */
+#noticias {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sobre {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
